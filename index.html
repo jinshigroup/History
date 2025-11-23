@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="中国历史发展脉络图解，从远古时代到现代中国的完整历史时间线，涵盖重要朝代、重大事件和历史文化变迁。">
+  <meta name="keywords" content="中国历史, 历史脉络, 朝代更替, 中华文明, 历史时间线">
+  <meta name="author" content="jinshi.group">
+  <title>中国历史发展脉络 - 完整的中华五千年历史时间线</title>
+  <style>
+    body {
+      font-family: 'Microsoft YaHei', Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(to right, #8B0000, #B22222);
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    .subtitle {
+      font-size: 1.2rem;
+      opacity: 0.9;
+      margin-top: 0.5rem;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    /* 概览表样式 */
+    .overview-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 2rem 0;
+      background-color: white;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .overview-table th {
+      background-color: #B22222;
+      color: white;
+      padding: 12px;
+      text-align: left;
+    }
+
+    .overview-table td {
+      padding: 12px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .overview-table tr:nth-child(even) td {
+      background-color: #f9f9f9;
+    }
+
+    /* 时间线样式 */
+    .timeline {
+      position: relative;
+      max-width: 800px;
+      margin: 2rem auto;
+    }
+
+    .timeline::after {
+      content: '';
+      position: absolute;
+      width: 6px;
+      background-color: #B22222;
+      top: 0;
+      bottom: 0;
+      left: 50%;
+      margin-left: -3px;
+    }
+
+    .period {
+      padding: 10px 40px;
+      position: relative;
+      width: 50%;
+      box-sizing: border-box;
+    }
+
+    .period:nth-child(odd) {
+      left: 0;
+    }
+
+    .period:nth-child(even) {
+      left: 50%;
+    }
+
+    .content {
+      padding: 20px;
+      background-color: white;
+      position: relative;
+      border-radius: 6px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .period:nth-child(odd) .content::after {
+      content: '';
+      position: absolute;
+      top: 15px;
+      right: -15px;
+      border: 8px solid transparent;
+      border-left-color: white;
+    }
+
+    .period:nth-child(even) .content::after {
+      content: '';
+      position: absolute;
+      top: 15px;
+      left: -15px;
+      border: 8px solid transparent;
+      border-right-color: white;
+    }
+
+    .content h2 {
+      color: #8B0000;
+      margin-top: 0;
+    }
+
+    .dynasty {
+      display: inline-block;
+      background-color: #B22222;
+      color: white;
+      padding: 3px 8px;
+      border-radius: 4px;
+      font-size: 0.9rem;
+      margin-bottom: 10px;
+    }
+
+    @media screen and (max-width: 768px) {
+      .timeline::after {
+        left: 31px;
+      }
+
+      .period {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+        left: 0 !important;
+      }
+
+      .period:nth-child(even)::before {
+        content: none;
+      }
+
+      .period:nth-child(odd) .content::after,
+      .period:nth-child(even) .content::after {
+        left: 15px;
+        top: -15px;
+        border: 8px solid transparent;
+        border-bottom-color: white;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>中国历史发展脉络</h1>
+    <div class="subtitle">五千年的文明传承与历史演变</div>
+  </header>
+
+  <div class="container">
+    <h2 style="text-align: center; color: #8B0000; margin-top: 3rem;">中国历史发展概览表</h2>
+    <table class="overview-table">
+      <thead>
+        <tr>
+          <th>时期</th>
+          <th>朝代/政权</th>
+          <th>时间范围</th>
+          <th>重要特征</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>史前时期</td>
+          <td>远古时代</td>
+          <td>约200万年前-公元前2070年</td>
+          <td>旧石器时代、新石器时代，农业起源</td>
+        </tr>
+        <tr>
+          <td>奴隶社会</td>
+          <td>夏朝</td>
+          <td>约公元前2070年-约公元前1600年</td>
+          <td>中国历史上第一个世袭制王朝</td>
+        </tr>
+        <tr>
+          <td>奴隶社会</td>
+          <td>商朝</td>
+          <td>约公元前1600年-约公元前1046年</td>
+          <td>青铜文明，甲骨文出现</td>
+        </tr>
+        <tr>
+          <td>奴隶社会</td>
+          <td>西周</td>
+          <td>公元前1046年-公元前771年</td>
+          <td>分封制、宗法制、礼乐制度</td>
+        </tr>
+        <tr>
+          <td>奴隶社会向封建社会过渡</td>
+          <td>春秋时期</td>
+          <td>公元前770年-公元前476年</td>
+          <td>诸侯争霸，百家争鸣开始</td>
+        </tr>
+        <tr>
+          <td>奴隶社会向封建社会过渡</td>
+          <td>战国时期</td>
+          <td>公元前475年-公元前221年</td>
+          <td>七雄兼并，变法图强</td>
+        </tr>
+        <tr>
+          <td>封建统一时期</td>
+          <td>秦朝</td>
+          <td>公元前221年-公元前207年</td>
+          <td>首次大一统，中央集权制度</td>
+        </tr>
+        <tr>
+          <td>封建统一时期</td>
+          <td>西汉</td>
+          <td>公元前206年-公元8年</td>
+          <td>汉承秦制，丝绸之路开通</td>
+        </tr>
+        <tr>
+          <td>短暂王朝</td>
+          <td>新朝</td>
+          <td>公元9年-23年</td>
+          <td>王莽篡汉建立的新朝</td>
+        </tr>
+        <tr>
+          <td>封建统一时期</td>
+          <td>东汉</td>
+          <td>公元25年-220年</td>
+          <td>光武中兴，佛教传入</td>
+        </tr>
+        <tr>
+          <td>分裂割据时期</td>
+          <td>三国(魏、蜀、吴)</td>
+          <td>220年-280年</td>
+          <td>三国鼎立</td>
+        </tr>
+        <tr>
+          <td>短暂统一时期</td>
+          <td>西晋</td>
+          <td>266年-316年</td>
+          <td>短暂统一后迅速衰落</td>
+        </tr>
+        <tr>
+          <td>南北分裂时期</td>
+          <td>东晋</td>
+          <td>317年-420年</td>
+          <td>偏安江南，门阀政治</td>
+        </tr>
+        <tr>
+          <td>南北分裂时期</td>
+          <td>南北朝</td>
+          <td>386年-589年</td>
+          <td>民族融合，佛教兴盛</td>
+        </tr>
+        <tr>
+          <td>统一王朝</td>
+          <td>隋朝</td>
+          <td>581年-618年</td>
+          <td>结束分裂，开凿大运河</td>
+        </tr>
+        <tr>
+          <td>繁荣盛世</td>
+          <td>唐朝</td>
+          <td>618年-907年</td>
+          <td>封建社会鼎盛期，文化开放</td>
+        </tr>
+        <tr>
+          <td>分裂割据时期</td>
+          <td>五代十国</td>
+          <td>907年-960年</td>
+          <td>政权林立，战乱不断</td>
+        </tr>
+        <tr>
+          <td>经济文化繁荣期</td>
+          <td>北宋、南宋</td>
+          <td>960年-1279年</td>
+          <td>经济文化高度发达</td>
+        </tr>
+        <tr>
+          <td>少数民族政权</td>
+          <td>辽、西夏、金</td>
+          <td>916年-1234年</td>
+          <td>契丹、党项、女真族政权</td>
+        </tr>
+        <tr>
+          <td>大一统王朝</td>
+          <td>元朝</td>
+          <td>1271年-1368年</td>
+          <td>疆域辽阔，民族大融合</td>
+        </tr>
+        <tr>
+          <td>封建晚期</td>
+          <td>明朝</td>
+          <td>1368年-1644年</td>
+          <td>恢复汉人统治，强化集权</td>
+        </tr>
+        <tr>
+          <td>封建晚期</td>
+          <td>清朝</td>
+          <td>1644年-1912年</td>
+          <td>最后一个封建王朝</td>
+        </tr>
+        <tr>
+          <td>半殖民地半封建社会</td>
+          <td>晚清</td>
+          <td>1840年-1912年</td>
+          <td>内忧外患，被动现代化</td>
+        </tr>
+        <tr>
+          <td>近代共和制</td>
+          <td>中华民国</td>
+          <td>1912年-1949年</td>
+          <td>亚洲第一个共和国</td>
+        </tr>
+        <tr>
+          <td>现代中国</td>
+          <td>中华人民共和国</td>
+          <td>1949年至今</td>
+          <td>社会主义制度确立和发展</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="container">
+    <h2 style="text-align: center; color: #8B0000;">中华文明历史时间线</h2>
+    <p style="text-align: center; max-width: 800px; margin: 0 auto 2rem;">
+      中国是世界四大文明古国之一，拥有超过五千年的悠久历史。从远古时代的部落联盟到封建王朝，再到现代中国，
+      这条历史长河见证了无数的兴衰更替和文化传承。
+    </p>
+
+    <div class="timeline">
+      <!-- 史前时期 -->
+      <div class="period">
+        <div class="content">
+          <span class="dynasty">史前时期</span>
+          <h2>远古时代 (约200万年前-公元前2070年)</h2>
+          <p><strong>主要阶段：</strong>旧石器时代、新石器时代</p>
+          <p><strong>重要文化：</strong>元谋人、北京人、仰韶文化、龙山文化</p>
+          <p><strong>重要发明：</strong>农业起源、陶器制作、定居生活</p>
+        </div>
+      </div>
+
+      <!-- 夏朝 -->
+      <div class="period">
+        <div class="content">
+          <span class="dynasty">奴隶社会</span>
+          <h2>夏朝 (约公元前2070年-约公元前1600年)</h2>
+          <p><strong>重要特征：</strong>中国历史上第一个世袭制王朝</p>
+          <p><strong>重要君主：</strong>禹、启、桀</p>
+          <p><strong>重要遗址：</strong>二里头文化遗址</p>
+        </div>
+      </div>
+
+      <!-- 商朝 -->
+      <div class="period">
+        <div class="content">
+          <span class="dynasty">奴隶社会</span>
+          <h2>商朝 (约公元前1600年-约公元前1046年)</h2>
+          <p><strong>重要特征：</strong>青铜文明高度发达，甲骨文出现</p>
+          <p><strong>重要君主：</strong>汤、盘庚、纣王</p>
+          <p><strong>重要成就：</strong>甲骨文、司母戊鼎、盘庚迁殷</p>
+        </div>
+      </div>
+
+      <!-- 西周 -->
+      <div class="period">
+        <div class="content">
+          <span class="dynasty">奴隶社会</span>
+          <h2>西周 (公元前1046年-公元前771年)</h2>
+          <p><strong>重要特征：</strong>分封制、宗法制、礼乐制度确立</p>
+          <p><strong>重要君主：</strong>周武王、周公旦、周幽王</p>
+          <p><strong>重要事件：</strong>牧野之战、国人暴动、烽火戏诸侯</p>
+        </div>
+      </div>
+
+      <!-- 东周(春秋) -->
+      <div class="period">
+        <div class="content">
+          <span class="dynasty">奴隶社会向封建社会过渡</span>
+          <h2>春秋时期 (公元前770年-公元前476年)</h2>
+          <p><strong>重要特征：</strong>诸侯争霸，礼崩乐坏</p>
+          <p><strong>重要人物：</strong>孔子、老子、管仲、孙子</p>
+          <p><strong>重要事件：</strong>齐桓公称霸、晋楚争霸、吴越争霸</p>
+          <p><strong>思想文化：</strong>百家争鸣开始，私学兴起</p>
+        </div>
+      </div>
+
+      <!-- 东周(战国) -->
+      <div class="period">
+        <div class="content">
+          <span class="dynasty">奴隶社会向封建社会过渡</span>
+          <h2>战国时期 (公元前475年-公元前221年)</h2>
+          <p><strong>重要特征：</strong>七雄兼并，变法图强</p>
+          <p><strong>重要国家：</strong>齐、楚、燕、韩、赵、魏、秦</p>
+          <p><strong>重要人物：</strong>商鞅、孟子、庄子、韩非子</p>
+          <p><strong>重要改革：</strong>商鞅变法、胡服骑射</p>
+        </div>
+      </div>
+
+      <!-- 秦朝 -->
+      <div class="period">
+        <div class="content">
+          <span class="dynasty">封建统一时期</span>
+          <h2>秦朝 (公元前221年-公元前207年)</h2>
+          <p><strong>重要特征：</strong>首次实现大一统，建立中央集权制度</p>
+          <p><strong>重要君主：</strong>秦始皇嬴政、秦二世胡亥</p>
+          <p><strong>重要政策：</strong>书同文、车同轨、统一货币度量衡</p>
+          <p><strong>重要工程：</strong>万里长城、阿房宫、秦始皇陵</p>
+        </div>
+      </div>
+
+      <!-- 西汉 -->
+      <div class="period">
+        <div class="content">
+          <span class="dynasty">封建统一时期</span>
+          <h2>西汉 (公元前206年-公元8年)</h2>
+          <p><strong>重要特征：</strong>汉承秦制，休养生息</p>
+          <p><strong>重要君主：</strong>汉高祖刘邦、汉武帝刘彻、汉宣帝刘询</p>
+          <p><strong>重要政策：</strong>推恩令、罢黜百家独尊儒术</p>
+          <p><strong>对外交流：</strong>张骞出使西域，丝绸之路开通</p>
+        </div>
+      </div>
+
+      <!-- 新朝 -->
+      <div class="period">
+        <div class="content">
+          <span class="dynasty">短暂王朝</span>
+          <h2>新朝 (公元9年-23年)</h2>
+          <p><strong>重要特征：</strong>王莽篡汉建立的新朝</p>
+          <p><strong>重要人物：</strong>王莽</p>
+          <p><strong>重要改革：</strong>王田制、币制改革</p>
+          <p><strong>结局：</strong>绿林赤眉起义推翻新朝</p>
+        </div>
+      </div>
+
+      <!-- 东汉 -->
+      <div class="period">
+        <div class="content">
+          <span class="dynasty">封建统一时期</span>
+          <h2>东汉 (公元25年-220年)</h2>
+          <p><strong>重要特征：</strong>光武中兴，豪强地主势力强大</p>
+          <p><strong>重要君主：</strong>汉光武帝刘秀、汉明帝、汉章帝</p>
+          <p><strong>重要事件：</strong>班超经营西域、蔡伦改进造纸术</p>
+          <p><strong>思想文化：</strong>佛教传入中国</p>
+        </div>
+      </div>
+
+      <!-- 三国(魏) -->
+      <div class="period">
+        <div class="content">
+          <span class="dynasty">分裂割据时期</span>
+          <h2>曹魏 (220年-266年)</h2>
+          <p><strong>重要特征：</strong>三国鼎立之一</p>
+          <p><strong>重要人物：</strong>曹操、曹丕、司马懿</p>
+          <p><strong>重要制度：</strong>九品中正制</p>
+          <p><strong>文化成就：</strong>建安文学</p>
+        </div>
+      </div>
+
+      <!-- 三国(蜀) -->
+      <div class="period">
+        <div class="content">
+          <span class="dynasty">分裂割据时期</span>
+          <h2>蜀汉 (221年-263年)</h2>
+          <p><strong>重要特征：</strong>三国鼎立之一，偏安一隅</p>
+          <p><strong>重要人物：</strong>刘备、诸葛亮、关羽、张飞</p>
+          <p><strong>重要事件：</strong>三顾茅庐、六出祁山、白帝城托孤</p>
+        </div>
+      </div>
+
+      <!-- 三国(吴) -->
+      <div class="period">
+        <div class="content">
+          <span class="dynasty">分裂割据时期</span>
+          <h2>东吴 (222年-280年)</h2>
+          <p><strong>重要特征：</strong>三国鼎立之一，水军强大</p>
+          <p><strong>重要人物：</strong>孙权、周瑜、陆逊</p>
+          <p><strong>重要战役：</strong>赤壁之战、夷陵之战</p>
+        </div>
+      </div>
+
+      <!-- 西晋 -->
+      <div class="period">
+        <div class="content">
+          <span class="dynasty">短暂统一时期</span>
+          <h2>西晋 (266年-316年)</h2>
+          <p><strong>重要特征：</strong>短暂统一后迅速衰落</p>
+          <p><strong>重要人物：</strong>司马炎、石崇、王恺</p>
+          <p><strong>重要事件：</strong>八王之乱、五胡乱华开端</p>
+        </div>
+      </div>
+
+      <!-- 东晋 -->
+      <div class="period">
+        <div class="content">
+          <span class="dynasty">南北分裂时期</span>
+          <h2>东晋 (317年-420年)</h2>
+          <p><strong>重要特征：</strong>偏安江南，门阀政治</p>
+          <p><strong>重要人物：</strong>司马睿、王导、谢安</p>
+          <p><strong>重要战役：</strong>淝水之战</p>
+          <p><strong>文化成就：</strong>田园诗派兴起</p>
+        </div>
+      </div>
+
+      <!-- 南北朝(南朝) -->
+      <div class="period">
+        <div class="content">
+          <span class="dynasty">南北分裂时期</span>
+          <h2>南朝 (420年-589年)</h2>
+          <p><strong>包括朝代：</strong>宋、齐、梁、陈</p>
+          <p><strong>重要特征：</strong>政权更迭频繁，文化繁荣</p>
+          <p><strong>文化成就：</strong>山水诗、骈文发展</p>
+        </div>
+      </div>
+
+      <!-- 南北朝(北朝) -->
+      <div class="period">
+        <div class="content">
+          <span class="dynasty">南北分裂时期</span>
+          <h2>北朝 (386年-581年)</h2>
+          <p><strong>包括朝代：</strong>北魏、东魏、西魏、北齐、北周</p>
+          <p><strong>重要特征：</strong>民族融合，佛教兴盛</p>
+          <p><strong>重要改革：</strong>孝文帝汉化改革</p>
+        </div>
+      </div>
+
+      <!-- 隋朝 -->
+      <div class="period">
+        <div class="content">
+          <span class="dynasty">统一王朝</span>
+          <h2>隋朝 (581年-618年)</h2>
+          <p><strong>重要特征：</strong>结束长期分裂局面</p>
+          <p><strong>重要君主：</strong>隋文帝杨坚、隋炀帝杨广</p>
+          <p><strong>重要工程：</strong>开凿大运河</p>
+          <p><strong>重要制度：</strong>科举制度初创</p>
+        </div>
+      </div>
+
+      <!-- 唐朝 -->
+      <div class="period">
+        <div class="content">
+          <span class="dynasty">繁荣盛世</span>
+          <h2>唐朝 (618年-907年)</h2>
+          <p><strong>重要特征：</strong>封建社会鼎盛期，文化开放包容</p>
+          <p><strong>重要君主：</strong>唐太宗李世民、武则天、唐玄宗李隆基</p>
+          <p><strong>重要事件：</strong>贞观之治、开元盛世、安史之乱</p>
+          <p><strong>国际影响：</strong>万国来朝，长安成为国际大都市</p>
+        </div>
+      </div>
+
+      <!-- 五代十国 -->
+      <div class="period">
+        <div class="content">
+          <span class="dynasty">分裂割据时期</span>
+          <h2>五代十国 (907年-960年)</h2>
+          <p><strong>重要特征：</strong>政权林立，战乱不断</p>
+          <p><strong>五代：</strong>后梁、后唐、后晋、后汉、后周</p>
+          <p><strong>十国：</strong>前蜀、后蜀、吴、南唐、吴越等</p>
+        </div>
+      </div>
+
+      <!-- 北宋 -->
+      <div class="period">
+        <div class="content">
+          <span class="dynasty">经济文化繁荣期</span>
+          <h2>北宋 (960年-1127年)</h2>
+          <p><strong>重要特征：</strong>重文轻武，经济文化高度发达</p>
+          <p><strong>重要君主：</strong>宋太祖赵匡胤、宋真宗、宋仁宗</p>
+          <p><strong>重要改革：</strong>王安石变法</p>
+          <p><strong>科技成就：</strong>活字印刷术发明</p>
+        </div>
+      </div>
+
+      <!-- 南宋 -->
+      <div class="period">
+        <div class="content">
+          <span class="dynasty">经济文化繁荣期</span>
+          <h2>南宋 (1127年-1279年)</h2>
+          <p><strong>重要特征：</strong>偏安江南，经济重心南移完成</p>
+          <p><strong>重要人物：</strong>岳飞、文天祥</p>
+          <p><strong>重要事件：</strong>靖康之耻、郾城大捷</p>
+          <p><strong>文化成就：</strong>理学发展，词作繁荣</p>
+        </div>
+      </div>
+
+      <!-- 辽朝 -->
+      <div class="period">
+        <div class="content">
+          <span class="dynasty">少数民族政权</span>
+          <h2>辽朝 (916年-1125年)</h2>
+          <p><strong>重要特征：</strong>契丹族建立的北方政权</p>
+          <p><strong>重要君主：</strong>耶律阿保机、萧太后</p>
+          <p><strong>重要制度：</strong>南北面官制</p>
+        </div>
+      </div>
+
+      <!-- 西夏 -->
+      <div class="period">
+        <div class="content">
+          <span class="dynasty">少数民族政权</span>
+          <h2>西夏 (1038年-1227年)</h2>
+          <p><strong>重要特征：</strong>党项族建立的西北政权</p>
+          <p><strong>重要君主：</strong>李元昊</p>
+          <p><strong>文化特色：</strong>西夏文字创制</p>
+        </div>
+      </div>
+
+      <!-- 金朝 -->
+      <div class="period">
+        <div class="content">
+          <span class="dynasty">少数民族政权</span>
+          <h2>金朝 (1115年-1234年)</h2>
+          <p><strong>重要特征：</strong>女真族建立的政权</p>
+          <p><strong>重要君主：</strong>完颜阿骨打、金世宗</p>
+          <p><strong>重要事件：</strong>靖康之变</p>
+        </div>
+      </div>
+
+      <!-- 元朝 -->
+      <div class="period">
+        <div class="content">
+          <span class="dynasty">大一统王朝</span>
+          <h2>元朝 (1271年-1368年)</h2>
+          <p><strong>重要特征：</strong>疆域空前辽阔，民族大融合</p>
+          <p><strong>重要君主：</strong>忽必烈、元世祖</p>
+          <p><strong>重要制度：</strong>行省制度</p>
+          <p><strong>对外交流：</strong>马可·波罗访华</p>
+        </div>
+      </div>
+
+      <!-- 明朝 -->
+      <div class="period">
+        <div class="content">
+          <span class="dynasty">封建晚期</span>
+          <h2>明朝 (1368年-1644年)</h2>
+          <p><strong>重要特征：</strong>恢复汉人统治，强化中央集权</p>
+          <p><strong>重要君主：</strong>明太祖朱元璋、永乐帝朱棣、崇祯帝</p>
+          <p><strong>重要事件：</strong>靖难之役、郑和下西洋、土木堡之变</p>
+          <p><strong>重要工程：</strong>重建长城、修建故宫</p>
+        </div>
+      </div>
+
+      <!-- 清朝 -->
+      <div class="period">
+        <div class="content">
+          <span class="dynasty">封建晚期</span>
+          <h2>清朝 (1644年-1912年)</h2>
+          <p><strong>重要特征：</strong>满族建立的最后一个封建王朝</p>
+          <p><strong>重要君主：</strong>康熙、雍正、乾隆</p>
+          <p><strong>康乾盛世：</strong>封建社会最后的辉煌</p>
+          <p><strong>历史转折：</strong>近代屈辱史开端，西方列强入侵</p>
+        </div>
+      </div>
+
+      <!-- 晚清 -->
+      <div class="period">
+        <div class="content">
+          <span class="dynasty">半殖民地半封建社会</span>
+          <h2>晚清 (1840年-1912年)</h2>
+          <p><strong>重要特征：</strong>内忧外患，被动现代化</p>
+          <p><strong>重要事件：</strong>鸦片战争、太平天国、洋务运动、戊戌变法</p>
+          <p><strong>重要人物：</strong>林则徐、曾国藩、李鸿章、康有为</p>
+          <p><strong>结局：</strong>辛亥革命推翻帝制</p>
+        </div>
+      </div>
+
+      <!-- 中华民国 -->
+      <div class="period">
+        <div class="content">
+          <span class="dynasty">近代共和制</span>
+          <h2>中华民国 (1912年-1949年)</h2>
+          <p><strong>重要特征：</strong>亚洲第一个共和国</p>
+          <p><strong>重要人物：</strong>孙中山、袁世凯、蒋介石</p>
+          <p><strong>重要事件：</strong>五四运动、北伐战争、抗日战争、解放战争</p>
+        </div>
+      </div>
+
+      <!-- 中华人民共和国 -->
+      <div class="period">
+        <div class="content">
+          <span class="dynasty">现代中国</span>
+          <h2>中华人民共和国 (1949年至今)</h2>
+          <p><strong>重要特征：</strong>社会主义制度在中国的确立和发展</p>
+          <p><strong>重要领袖：</strong>毛泽东、邓小平、江泽民、胡锦涛、习近平</p>
+          <p><strong>重要阶段：</strong>社会主义建设探索、改革开放、中国特色社会主义新时代</p>
+          <p><strong>发展成就：</strong>经济腾飞，科技崛起，国际地位提升</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
